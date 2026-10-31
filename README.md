@@ -192,10 +192,10 @@ http://localhost:8501
 
 ## 👩‍💻 Author
 
-**Sejal Malviya**
+**Pranav Ghodki**
 
-- GitHub: [@sejal-26](https://github.com/sejal-26)
-- Project: [Multimodal Attendance & Engagement Agent](https://github.com/sejal-26/multimodal-attendance-agent)
+- GitHub: [@pranavv27](https://github.com/pranavv27)
+- Project: [Multimodal Attendance & Engagement Agent](https://github.com/pranavv27/multimodal-attendance-agent)
 
 ---
 
