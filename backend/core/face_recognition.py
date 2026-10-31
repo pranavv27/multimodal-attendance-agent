@@ -6,10 +6,10 @@ import cv2
 import numpy as np
 
 class FaceRecognizer:
-    def __init__(self, db_path="student_db"):
-        self.db_path = db_path
-        if not os.path.exists(db_path):
-            os.makedirs(db_path, exist_ok=True)
+    def __init__(self, db_path=None):
+        self.db_path = db_path or os.getenv("STUDENT_DB_PATH", "student_db")
+        if not os.path.exists(self.db_path):
+            os.makedirs(self.db_path, exist_ok=True)
         self.known_students = {
             "S101": "Pranav Ghodki"
         }
